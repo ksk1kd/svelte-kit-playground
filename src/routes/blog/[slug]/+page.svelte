@@ -4,4 +4,4 @@ import type { PageProps } from './$types'
 let { data }: PageProps = $props()
 </script>
 
-<h1>Blog {data.slug}</h1>
+<h1>{data.post.title}</h1>
