@@ -12,3 +12,7 @@ let { data }: PageProps = $props()
     </li>
   {/each}
 </ul>
+
+<svelte:head>
+	<title>Blog List</title>
+</svelte:head>
